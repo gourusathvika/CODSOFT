@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANCE CLASSES</title>
+    <style>
+        *{
+    margin:0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+.navbar{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 70%;
+    padding: 20px 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+}
+.header ul li{
+    list-style: none;
+}
+.header ul li{
+    display: inline-block;
+    margin-left: 90px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #474747;
+}
+.container{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.content{
+    position: relative;
+    width: 50%;
+    margin-top: 50px;
+
+}
+.content h1{
+    font-size: 2em;
+    color: #2e2e2e;
+    font-weight: normal;
+
+}
+.content h1 span{
+    color: #d700d7;
+    font-weight: bold;
+}
+.content h2{
+    color: #2e2e2e;
+    line-height: 50px;
+}
+.content p{
+    color: #363636;
+    padding-left: 20px;
+}
+.content a{
+    display:inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    background: #d7004d;
+    border-radius: 50px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.product{
+    margin-top: 50px;
+}
+
+.click li{
+    list-style: none;
+}
+.click img{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: 30px 0px 0px 30px;
+    cursor: pointer;
+    transition:0.5s;
+}
+
+.click img:hover{
+    transform: translateX(-15px);
+}
+.ball{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    clip-path: circle(500px at right)  ;
+    background: #e7b6ab;
+}
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+    <div class="header">
+<div class="navbar">
+<img src="/natyamlogo.webp" class="logo">
+<ul>
+    <li><a href="#">HOME</a> </li>
+    <li><a href="#">VIDEOS</a> </li>
+        <li><a href="#">ADDRESS</a> </li>
+            <li><a href="#">CONTACT</a> </li>
+                
+</ul>
+</div>
+<div class="container">
+    <div class="content">
+        <h1>
+            sathvika <span>dance </span><span>institue</span>
+        </h1>
+        <h2>contact us for more details</h2>
+        <p>indian classciacl dance is a vibrant and captivating art from that has been passed down through generation.<br>it preserves the rich</p>
+        <a href="#">join us now</a>
+        
+
+    </div>
+    <div class="product">
+        <img src="/natyam.png" class="dance">
+         
+    </div>
+    <ul class="click">
+        <li><img src="/natyam1.png"></li>
+        <li><img src="/natyam2.png"></li>
+
+
+    </ul>
+
+</div>
+</body>
+</html>
