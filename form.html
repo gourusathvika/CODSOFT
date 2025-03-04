@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <!-- <style>
+fieldset{
+  background-color: aqua;
+}
+    </style> -->
+</head>
+<body bgcolor="aqua">
+   <!--it is to get boreder/box--> 
+    <fieldset style="width:fit-content; background: hsl(177, 46%, 47%);">
+<!--it it to get personal detials (space) -->
+     <legend>personal details</legend> <br/>
+     <!-- to redirect to another page use action -->
+    <form action="https://sriindu.ac.in/" method="post">
+  <label for="username">Enter username:</label><!--&nbsp;&nbsp;&nbsp;&nbsp;-->
+ <img src="C:\Users\Sweety\Pictures\women.jpg" align="right" height="100" width="150" />&nbsp;
+  <input type="text" id="username"/><br/><br/>
+  <label for="password">Enter password:</label>
+  <input type="password" id="password" placeholder="password"/><br/><br/>
+  <!--span is used to do modification in the middle of the paragraph-->
+  <label for="tel">Enter phone number :<span style="color: brown;">*</span></label>
+  <input type="number" id="tel" required/><br/><br/>
+  <label for="tel">Enter alternate number :</label>
+  <input type="number" id="tel" required /><br/><br/>
+  <label for="age">Age :*</label>
+  <input type="date" id="age" required /><br/><br/>
+  <!--for radio button for id name value are important-->
+  <label >Gender :</label>
+  <!--<label for ="female">female</label>  it sholud be bellow the input -->
+  <input type="radio" id="female" name="Gender"  value="male"/> 
+  <label for ="female">female</label>
+  <!--<div>-->
+  <input type="radio" id="male" name="Gender"  value="male"/> 
+  <label for ="male">male</label><br/></br>
+  <label >Address:</label><br/>
+  <textarea></textarea><br/></br>
+  <!--</div>-->
+  <label>programming languaes :</label>
+  <input type="checkbox"/>
+  <label>java</label>
+  <input type="checkbox"/>
+  <label>devops</label>
+  <input type="checkbox"/> 
+  <label>mysql</label>
+  <br/><br/>
+  <input type="submit" value="Submit">
+  <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+  <input type="reset" value="Reset">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60710.820155482674!2d79.55134115!3d18.00541095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334f75c05023ed%3A0x2352eaaf6fe897ea!2sHanamkonda%2C%20Telangana!5e0!3m2!1sen!2sin!4v1741066227095!5m2!1sen!2sin"  
+  width="200" height="200" style="border:0;" 
+  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" align="right"></iframe>
+</fieldset>
+  </form> 
+</body>
+</html>
